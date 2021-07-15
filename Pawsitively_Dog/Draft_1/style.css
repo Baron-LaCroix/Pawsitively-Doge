@@ -6,13 +6,13 @@ body {
     height: auto;
 }
 
-/* Add a black background color to the top navigation */
+/* Nav bar bg color */
 .topnav {
     background-color: gray;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Nav bar style */
   .topnav a {
     float: left;
     color: white;
@@ -22,13 +22,13 @@ body {
     font-size: 16px;
   }
   
-  /* Change the color of links on hover */
+  /* Nav bar link hover color effect */
   .topnav a:hover {
     background-color: wheat;
     color: black;
   }
   
-  /* Add a color to the active/current link */
+  /* Nav bar active/current link effect */
   .topnav a.active {
     background-color: green;
     color: white;
@@ -37,3 +37,53 @@ body {
   h1 {
       text-align: center;
   }
+
+  #himg {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.about {
+  text-align: left;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* botNav bar bg color */
+.botnav {
+  background-color: gray;
+  overflow: hidden;
+}
+
+/* botNav bar style */
+.botnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* botNav bar link hover color effect */
+.botnav a:hover {
+  background-color: wheat;
+  color: black;
+}
+
+/* botNav bar active/current link effect */
+.botnav a.active {
+  background-color: green;
+  color: white;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 24px;
+}
